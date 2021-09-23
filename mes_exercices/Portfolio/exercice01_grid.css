@@ -1,0 +1,36 @@
+#container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+    "o1 o2 o2 o2 o2 o2"
+    "o1 o3 o3 o3 o3 o4"
+    "o1 o3 o3 o3 o3 o4"
+    "o1 o3 o3 o3 o3 o4"
+    "o1 o5 o5 o5 o5 o5" ;
+}
+.obj1{
+    grid-area: o1;
+    background-color: cadetblue;
+}
+.obj2{
+    grid-area: o2;
+    background-color: chartreuse;
+}
+.obj3{
+    grid-area: o3;
+}
+.obj4{
+    grid-area: o4;
+    background-color: indianred;
+}
+.obj5{
+    grid-area: o5;
+    background-color: chartreuse;
+}
+.obj {
+    /* background-color: lightblue; */
+    font-size: 2em;
+    color:black;
+}

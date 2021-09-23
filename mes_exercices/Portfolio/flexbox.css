@@ -1,0 +1,37 @@
+body {
+    margin: 1em;
+    /* background-color: rgb(93, 185, 185); */
+}
+
+#container {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color:midnightblue ;
+    border-radius: 5%;
+    height: 6.3cm;
+    gap: 25px;
+}
+
+#container #texte {
+    display: flex;
+    background-image:url(BleuGris.jpg); 
+    background-size: cover;
+    border-radius: 20px;
+    width: 80%;
+    height: 5cm ;
+    flex-direction: column;
+}
+
+#container #image {
+    display: flex;
+    background-image:url(BleuGris.jpg);
+    justify-self: center;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10%;
+}
